@@ -1,0 +1,11 @@
+endpoints: 
+  name: "home"
+  path: "/"
+  contentType: "application/json"
+  methods: 
+    - "GET"
+  responses:
+    - method: "GET"
+      httpCode: 200
+      body: '{ "response": "ok" }'
+ 
